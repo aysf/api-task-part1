@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "29e63a1c-1e3b-422b-8dfa-d8e073856420",
+		"name": "part1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "newsapi: top-headlines",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Api-Key",
+						"value": "ac5db2c6e7f24d80b8f13fbefa873422",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi: everything about golang",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=golang&apiKey=ac5db2c6e7f24d80b8f13fbefa873422",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "golang"
+						},
+						{
+							"key": "apiKey",
+							"value": "ac5db2c6e7f24d80b8f13fbefa873422"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi: everything about Joko Widodo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=joko%20widodo&apiKey=ac5db2c6e7f24d80b8f13fbefa873422",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "joko%20widodo"
+						},
+						{
+							"key": "apiKey",
+							"value": "ac5db2c6e7f24d80b8f13fbefa873422"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi: top headlines category science",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?category=business&apiKey=ac5db2c6e7f24d80b8f13fbefa873422",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "business"
+						},
+						{
+							"key": "apiKey",
+							"value": "ac5db2c6e7f24d80b8f13fbefa873422"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi: headlines with language arabic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?language=ar&apiKey=ac5db2c6e7f24d80b8f13fbefa873422",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "ar"
+						},
+						{
+							"key": "apiKey",
+							"value": "ac5db2c6e7f24d80b8f13fbefa873422"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "swapi: spaceship",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "swapi: vehicle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "swapi: people",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "swapi: planets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "swapi: films",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://swapi.dev/api/films/3/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"films",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
